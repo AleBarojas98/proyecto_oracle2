@@ -9,7 +9,7 @@ package Model;
 
 public class Autenticacion {
 
-    public static boolean autenticar(String login, String password) throws Exception{
+    public static boolean autenticar(String login, String password) {
         boolean autenticado; 
         try {
             

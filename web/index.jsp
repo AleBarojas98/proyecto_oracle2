@@ -13,9 +13,9 @@
     </head>
     <body>
          <h1>Bienvenido introduce tu Login y password </h1>
-        <form action="ingresar.aspx">
-            <p>Usuario: <input type="text" name="nombre"/> </p>
-            <p>Contraseña: <input type="text" name="contraseña"/></p>
+        <form action="ingresar.aspx" method="post">
+            <p>Usuario: <input type="text" name="login" placeholder="login"/> </p>
+            <p>Contraseña: <input type="password" name="password" placeholder="password"/></p>
             <input type="submit" value="Ingresar a Oracle"/>
         </form>
     </body>
