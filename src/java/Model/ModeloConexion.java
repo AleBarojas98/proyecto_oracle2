@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package Model;
-/* importamos el paquete sql para usar oracle y su conector*/
+
 import java.sql.*;
 
 
@@ -20,3 +20,5 @@ public static Connection conectarse(String login,
 };
     
 }
+
+
