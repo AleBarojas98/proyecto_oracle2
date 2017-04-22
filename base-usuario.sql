@@ -15,4 +15,4 @@ end;
 /
 
 
-select * from usuarios; 
+select * from usuario; 
