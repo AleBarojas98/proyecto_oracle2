@@ -16,7 +16,7 @@ public class TestProcedimiento {
     public static void main(String args[])throws Exception{
         Conexion c=new Conexion();
         Connection con=c.conectarse();
-     CallableStatement callate=con.prepareCall("{call pon_tu_procedimiento(?,?,?)}");
+     CallableStatement callate=con.prepareCall("{call guardar_malo(?,?,?)}");
         callate.registerOutParameter(1,java.sql.Types.INTEGER);
         callate.setString(2,"Alejandra");
         callate.setString(3,"Barojas");
